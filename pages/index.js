@@ -52,8 +52,62 @@ export default function Home() {
 
         <section>
           <div className="text-center">
-            <h3 className="text-3xl py-1">Services i offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">Frontend utvikler og UX designer basert i Oslo</p>
+            <h3 className="text-3xl py-10">Mine prosjekter</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">Prosjekter utviklet i Figma</p>
+          </div>
+
+          <div className="lg:flex gap-10 mx-auto">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={design} width={100} height={100}/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
+              <p className="py-2">Creating elegant designs suited for your needs</p>
+              <h4 className="py-4 text-teal-600">Design tools i use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">html</p>
+              <p className="text-gray-800 py-1">css</p> 
+            </div>
+
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={consulting} width={100} height={100}/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
+              <p className="py-2">Creating elegant designs suited for your needs</p>
+              <h4 className="py-4 text-teal-600">Design tools i use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">html</p>
+              <p className="text-gray-800 py-1">css</p> 
+            </div>
+
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={code} width={100} height={100}/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
+              <p className="py-2">Creating elegant designs suited for your needs</p>
+              <h4 className="py-4 text-teal-600">Design tools i use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">html</p>
+              <p className="text-gray-800 py-1">css</p> 
+            </div>
+
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={code} width={100} height={100}/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
+              <p className="py-2">Creating elegant designs suited for your needs</p>
+              <h4 className="py-4 text-teal-600">Design tools i use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">html</p>
+              <p className="text-gray-800 py-1">css</p> 
+            </div>
+            
+          </div>
+        </section>
+
+        <section>
+          <div className="text-center">
+            <h3 className="text-3xl py-10">Mine prosjekter</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">Prosjekter utviklet i JavaScript</p>
           </div>
 
           <div className="lg:flex gap-10 mx-auto">
@@ -106,8 +160,8 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1">Portofolio</h3>
-            <p>Mine portefølje dis</p>
+            <h3 className="text-3xl py-1 text-center">Portofolio</h3>
+            <p className="text-center">Annet design / Photoshop</p>
           </div>
 
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
