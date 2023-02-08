@@ -3,7 +3,10 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
 import Image from "next/legacy/image";
 import profilbilde from '../public/profilbilde.png';
-import design from '../public/design.png';
+import figma1 from '../public/figma1.png';
+import figma2 from '../public/figma2.png';
+import figma3 from '../public/figma3.png';
+import figma4 from '../public/figma4.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 
@@ -28,8 +31,8 @@ export default function Home() {
       </Head>
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section class="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">Developed by Joakim</h1>
+          <nav className="py-10 mb-12 flex justify-between bg-teal-600 rounded-xl w-full px-10">
+            <h1 className="text-xl font-burtons">Joakim Tin Seung Yuen</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill onClick={() => setDarkmode(!darkMode)} className="cursor-pointer text-2xl"/></li>
               <li><a className ="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"href="">Min CV</a></li>
@@ -56,52 +59,32 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800">Prosjekter utviklet i Figma</p>
           </div>
 
-          <div className="lg:flex gap-10 mx-auto">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={design} width={100} height={100}/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
-              <p className="py-2">Creating elegant designs suited for your needs</p>
-              <h4 className="py-4 text-teal-600">Design tools i use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">html</p>
-              <p className="text-gray-800 py-1">css</p> 
+          <div className="lg:flex gap-10 mx-auto content-center">
+             <div  className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 items-center w-3/12">
+              <Image src={figma1} width={"100%"} height={"100%"} layout="fixed" className="rounded-xl border-teal-600" />
+              <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1">Less text smaller picture</h3>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">Vis</button>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={consulting} width={100} height={100}/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
-              <p className="py-2">Creating elegant designs suited for your needs</p>
-              <h4 className="py-4 text-teal-600">Design tools i use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">html</p>
-              <p className="text-gray-800 py-1">css</p> 
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 items-center w-3/12">
+              <Image src={figma2} width={"100%"} height={"100%"} layout="fixed" className="rounded-xl border-teal-600" />
+              <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1">More and more text and it gets bigger</h3>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">Vis</button>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={code} width={100} height={100}/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
-              <p className="py-2">Creating elegant designs suited for your needs</p>
-              <h4 className="py-4 text-teal-600">Design tools i use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">html</p>
-              <p className="text-gray-800 py-1">css</p> 
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 items-center w-3/12">
+              <Image src={figma3} width={"100%"} height={"100%"} layout="fixed" className="rounded-xl border-teal-600" />
+              <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1">More more more more bigger bigger</h3>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">Vis</button>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={code} width={100} height={100}/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
-              <p className="py-2">Creating elegant designs suited for your needs</p>
-              <h4 className="py-4 text-teal-600">Design tools i use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">html</p>
-              <p className="text-gray-800 py-1">css</p> 
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 items-center w-3/12" layout="responsive">
+              <Image src={figma4} width={"100%"} height={"100%"} layout="fixed" className="rounded-xl border-teal-600" />
+              <h3 className="text-lg font-medium pt-8 pb-2 text-clip overflow-hidden flex-1">So the more text i have the more i mess up the divs..</h3>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded bottom-0">Vis</button>
+            </div>
             </div>
             
-          </div>
         </section>
 
         <section>
@@ -111,18 +94,14 @@ export default function Home() {
           </div>
 
           <div className="lg:flex gap-10 mx-auto">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={design} width={100} height={100}/>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
+              <Image src={figma1} width={100} height={100} layout="responsive" className="rounded-xl border-teal-600"/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
               <p className="py-2">Creating elegant designs suited for your needs</p>
               <h4 className="py-4 text-teal-600">Design tools i use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">html</p>
-              <p className="text-gray-800 py-1">css</p> 
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
               <Image src={consulting} width={100} height={100}/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
               <p className="py-2">Creating elegant designs suited for your needs</p>
@@ -133,7 +112,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">css</p> 
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
               <Image src={code} width={100} height={100}/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
               <p className="py-2">Creating elegant designs suited for your needs</p>
@@ -144,7 +123,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">css</p> 
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
               <Image src={code} width={100} height={100}/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
               <p className="py-2">Creating elegant designs suited for your needs</p>
@@ -164,15 +143,17 @@ export default function Home() {
             <p className="text-center">Annet design / Photoshop</p>
           </div>
 
+          <br></br>
+
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <Image src={web1} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <Image src={web1} className="rounded-lg object-cover" width={"150%"} height={"90%"} layout="responsive" />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web2} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <Image src={web2} className="rounded-lg object-cover" width={"150%"} height={"90%"} layout="responsive" />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web3} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <Image src={web3} className="rounded-lg object-cover" width={"150%"} height={"100%"} layout="responsive" />
             </div>
             <div className="basis-1/3 flex-1">
               <Image src={web4} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
