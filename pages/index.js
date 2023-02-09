@@ -59,29 +59,33 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800">Prosjekter utviklet i Figma</p>
           </div>
 
-          <div className="lg:flex gap-10 mx-auto content-center">
-             <div  className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 items-center w-3/12">
-              <Image src={figma1} width={"100%"} height={"100%"} layout="fixed" className="rounded-xl border-teal-600" />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1">Less text smaller picture</h3>
+          <div className="text-center lg:grid grid-cols-4 gap-10 mx-auto">
+             <div  className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
+              <Image src={figma1} width={200} height={200} className="rounded-xl border-teal-600" />
+              <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1">Prototype for Fresh Fitness</h3>
+              <p className="py-2">Ny og forbedret ide om økt bruk av mobilapplikasjon under covid perioden</p>
               <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">Vis</button>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 items-center w-3/12">
-              <Image src={figma2} width={"100%"} height={"100%"} layout="fixed" className="rounded-xl border-teal-600" />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1">More and more text and it gets bigger</h3>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
+              <Image src={figma2} width={200} height={200} className="rounded-xl border-teal-600" />
+              <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1">Trådskisser for Working Class Tattoo Shop</h3>
+              <p className="py-2">Trådskisser for et tattoveringstudio i henhold til bachelor oppgave</p>
               <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">Vis</button>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 items-center w-3/12">
-              <Image src={figma3} width={"100%"} height={"100%"} layout="fixed" className="rounded-xl border-teal-600" />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1">More more more more bigger bigger</h3>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
+              <Image src={figma3} width={200} height={200} className="rounded-xl border-teal-600" />
+              <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1">Prototype for Bright Solutions</h3>
+              <p className="py-2">Klikkbar prototype for reparasjon og lamper, brukt av ansatte i flyktningsleir som del av smidig prosjekt</p>
               <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">Vis</button>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 items-center w-3/12" layout="responsive">
-              <Image src={figma4} width={"100%"} height={"100%"} layout="fixed" className="rounded-xl border-teal-600" />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-clip overflow-hidden flex-1">So the more text i have the more i mess up the divs..</h3>
-              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded bottom-0">Vis</button>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600" layout="responsive">
+              <Image src={figma4} width={200} height={200} className="rounded-xl border-teal-600" />
+              <h3 className="text-lg font-medium pt-8 pb-2 text-clip overflow-hidden flex-1">Trådskisser for webløsning om Vertikalt jordbruk</h3>
+              <p className="py-2">Interaksjonsdesign oppgave om tema bærekraft</p>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded bottom-0 relative bottom-2,5">Vis</button>
             </div>
             </div>
             
@@ -95,14 +99,25 @@ export default function Home() {
 
           <div className="lg:flex gap-10 mx-auto">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
-              <Image src={figma1} width={100} height={100} layout="responsive" className="rounded-xl border-teal-600"/>
+              <Image src={figma1} width={100} height={100} className="rounded-xl border-teal-600"/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
-              <p className="py-2">Creating elegant designs suited for your needs</p>
+              <p className="py-2">Creating elegant designs suited for your needs sasd asdasd asd a asd asd ads asd asd asdd asd asd</p>
               <h4 className="py-4 text-teal-600">Design tools i use</h4>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
-              <Image src={consulting} width={100} height={100}/>
+              <Image src={figma2} width={100} height={100} className="rounded-xl border-teal-600"/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
+              <p  className="py-2">Creating elegant designs suited for your asd asd asd asd asd asd asd asd asd asd asd asd asd  asd asd asd asd asd asd asd asd asd</p>
+              <h4 className="py-4 text-teal-600">Design tools i use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">html</p>
+              <p className="text-gray-800 py-1">css</p> 
+            </div>
+
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
+              <Image src={figma3} width={100} height={100} className="rounded-xl border-teal-600"/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
               <p className="py-2">Creating elegant designs suited for your needs</p>
               <h4 className="py-4 text-teal-600">Design tools i use</h4>
@@ -113,18 +128,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
-              <Image src={code} width={100} height={100}/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
-              <p className="py-2">Creating elegant designs suited for your needs</p>
-              <h4 className="py-4 text-teal-600">Design tools i use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">html</p>
-              <p className="text-gray-800 py-1">css</p> 
-            </div>
-
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600">
-              <Image src={code} width={100} height={100}/>
+              <Image src={figma4} width={100} height={100} className="rounded-xl border-teal-600"/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
               <p className="py-2">Creating elegant designs suited for your needs</p>
               <h4 className="py-4 text-teal-600">Design tools i use</h4>
