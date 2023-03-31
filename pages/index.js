@@ -3,7 +3,7 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
 import Image from "next/legacy/image";
 import profilbilde from '../public/profilbilde.png';
-import figma1 from '../public/figma1.PNG';
+import figma1 from '../public/figma1.png';
 import figma2 from '../public/figma2.png';
 import figma3 from '../public/figma3.png';
 import figma4 from '../public/figma4.png';
