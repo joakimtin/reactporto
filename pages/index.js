@@ -83,14 +83,14 @@ export default function Home() {
               <Image src={figma3} width={200} height={200} className="rounded-xl border-teal-600" alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1 dark:text-white">Prototype for Bright Solutions</h3>
               <p className="py-2 dark:text-white">Klikkbar prototype for reparasjon og lamper, brukt av ansatte i flyktningsleir som del av smidig prosjekt</p>
-              <a className ="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 left-0 w-full"href="https://www.figma.com/proto/r6cpfltI15RBeYMppgL0h3/WCTS-WIREFRAMES?page-id=%200%3A1&node-id=13-65&starting-point-node-id=13%3A65&scaling=min-zoom" target="_blank" rel="noreferrer">Vis</a>
+              <a className ="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 left-0 w-full"href="https://www.figma.com/proto/NnBM9BtGkEW6hm5QTXO6gO/Smidig-v2?page-id=0%3A1&n%20ode-id=1%3A8&viewport=756%2C918%2C0.11&scaling=scale-down&starting-point-node-id%20=6%3A0" target="_blank" rel="noreferrer">Vis</a>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 relative justify-between">
               <Image src={figma4} width={200} height={200} className="rounded-xl border-teal-600" alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-clip overflow-hidden flex-1 dark:text-white">Trådskisser for webløsning om Vertikalt jordbruk</h3>
               <p className="py-2 dark:text-white">Interaksjonsdesign oppgave om tema bærekraft</p>
-              <a className ="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 left-0 w-full"href="https://www.figma.com/proto/r6cpfltI15RBeYMppgL0h3/WCTS-WIREFRAMES?page-id=%200%3A1&node-id=13-65&starting-point-node-id=13%3A65&scaling=min-zoom" target="_blank" rel="noreferrer">Vis</a>
+              <a className ="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 left-0 w-full"href="https://www.figma.com/proto/H5kGiRbyAPtrTSFPKRgnZE/Vertikalt-jordbruk-Interaksjonsdesign?node-id=262-509&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A83" target="_blank" rel="noreferrer">Vis</a>
             </div>
 
               
