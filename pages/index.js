@@ -9,6 +9,7 @@ import figma3 from '../public/figma3.png';
 import figma4 from '../public/figma4.png';
 import figma5 from '../public/figma5.png';
 import figma6 from '../public/figma6.png';
+import figma7 from '../public/bkbe.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 
@@ -18,6 +19,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import web7 from "../public/bkberm.png";
 import { useState } from "react";
 
 
@@ -37,7 +39,7 @@ export default function Home() {
             <h1 className="text-xl font-burtons">Joakim Tin Seung Yuen</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill onClick={() => setDarkmode(!darkMode)} className="cursor-pointer text-2xl"/></li>
-              <li><a className ="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"href="https://drive.google.com/file/d/1ECEXd1g7BXqZEgJ39jkQthRBxJBiR4PF/view" target="_blank" rel="noreferrer" >Min CV</a></li>
+              <li><a className ="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"href="https://docs.google.com/document/d/10gffpudfcC28iC8eluRhZ7d-Mc0-OfhNWwRHCSqMT2s/edit?usp=sharing" target="_blank" rel="noreferrer" >Min CV</a></li>
             </ul>
           </nav>
           <div className="text-center p-10">
@@ -66,6 +68,13 @@ export default function Home() {
 
           <div className="text-center lg:grid grid-cols-4 gap-10 mx-auto relative">
              <div  className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 relative justify-between">
+              <Image src={figma7} width={200} height={200} className="rounded-xl border-teal-600" alt=""/>
+              <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1 dark:text-white">Bærekraftig Bemanning (BKBE)</h3>
+              <p className="py-2 dark:text-white">Prototype av et helsebemannings-prosjekt</p>
+              <a className ="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 left-0 w-full"href="https://www.figma.com/proto/h4RuoZ5k1k8wSCZwTo8EIt/English-BKBE?page-id=0%3A1&node-id=15-10958&p=f&viewport=784%2C76%2C0.08&t=SC6kaZ4RgY8NgMUl-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=15%3A10958" target="_blank" rel="noreferrer">Vis</a>
+            </div>
+
+            <div  className="text-center shadow-lg p-10 rounded-xl my-10 border-4 border-teal-600 relative justify-between">
               <Image src={figma1} width={200} height={200} className="rounded-xl border-teal-600" alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-clip flex-1 dark:text-white">Prototype for Fresh Fitness</h3>
               <p className="py-2 dark:text-white">Ny og forbedret ide om økt bruk av mobilapplikasjon under covid perioden</p>
@@ -128,17 +137,18 @@ export default function Home() {
 
           <br></br>
 
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap bg-transparent">
             <div className="basis-1/3 flex-1">
-              <Image src={web1} alt="" className="rounded-lg object-cover" width={"150%"} height={"90%"} layout="responsive"/>
+              <Image src={web3} alt="" className="rounded-lg object-contain" width={"150%"} height={"90%"} layout="responsive"/>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web2} alt="" className="rounded-lg object-cover" width={"150%"} height={"90%"} layout="responsive"/>
+              <Image src={web2} alt="" className="rounded-lg object-contain" width={"150%"} height={"90%"} layout="responsive"/>
             </div>
+            
             <div className="basis-1/3 flex-1">
-              <Image src={web3} alt="" className="rounded-lg object-fill" width={50} height={25} layout="responsive"/>
+              <Image src={web7} alt="" className="rounded-lg w-full h-auto object-contain " width={"140%"} height={"600%"} layout="responsive"/>
             </div>
-          
+            
           </div>
 
         </section>
